@@ -1,20 +1,20 @@
 // ==UserScript==
 // @name         IB Dock Console HeatMap
 // @namespace    http://tampermonkey.net/
-// @version      2.0.2
+// @version      2.0.5
 // @description  Dock Console heatmap using Export Inbound Volume CSV with editable chute mapping, manifested/completed sections, settings page, late arrival flag, and summary controls.
 // @author       eydel@
 // @match        https://drive.harmony.a2z.com/dock-console*
-// @updateURL    https://raw.githubusercontent.com/tampermonky/IB-HeatMap/main/IB-Dock-Console-HeatMap.user.js
-// @downloadURL  https://raw.githubusercontent.com/tampermonky/IB-HeatMap/main/IB-Dock-Console-HeatMap.user.js
+// @updateURL    https://tamarin.aces.amazon.dev/scripts/ib-dock-console-heatmap/install.user.js
+// @downloadURL  https://tamarin.aces.amazon.dev/scripts/ib-dock-console-heatmap/install.user.js
 // @grant        none
 // ==/UserScript==
 
 (function () {
     'use strict';
 
-    const SCRIPT_VERSION = '2.0.2';
-    const LAST_UPDATED = '2026-05-06 00:00 CT';
+    const SCRIPT_VERSION = '2.0.5';
+    const LAST_UPDATED = '2026-05-11 00:00 CT';
 
     const STORAGE_KEY = 'dockConsoleHeatmapSettingsV10';
     const DNR_KEY = 'dockConsoleHeatmapDoNotRunV10';
